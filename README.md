@@ -1,11 +1,16 @@
 # WinWidgets - GitHub Statistics Widgets
 
 A collection of beautiful Windows widgets for displaying your GitHub statistics and activity directly on your desktop.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b439267f-f562-42b2-84a8-f0fd899e0687" />
 
 ## Widgets Included
 
 ### 1. **GitHub Contributions** (`git_contributions.html`)
 Displays your GitHub contribution heatmap in a compact, GitHub-style card format.
+
+<img width="538" height="150" alt="image" src="https://github.com/user-attachments/assets/1dc8faa4-e244-4556-aa95-56e1964c8469" />
+
+
 
 **Features:**
 - Visual contribution heatmap
@@ -15,6 +20,9 @@ Displays your GitHub contribution heatmap in a compact, GitHub-style card format
 ### 2. **GitHub Activity Graph** (`git_graph.html`)
 Shows your GitHub activity graph with commit patterns and contribution trends.
 
+<img width="435" height="199" alt="image" src="https://github.com/user-attachments/assets/e8faf7a9-5ee8-4f83-9f89-17197bdbb6fb" />
+
+
 **Features:**
 - Interactive activity graph
 - Dark theme optimized
@@ -22,6 +30,9 @@ Shows your GitHub activity graph with commit patterns and contribution trends.
 
 ### 3. **GitHub Stats** (`git_stats.html`)
 Comprehensive statistics widget showing your GitHub profile stats and contribution streak.
+
+<img width="420" height="394" alt="image" src="https://github.com/user-attachments/assets/ac9e1d51-f1f8-47c8-b0c6-b3c07844a050" />
+
 
 **Features:**
 - Profile statistics (stars, commits, PRs, etc.)
