@@ -73,11 +73,6 @@ All widgets use a dark GitHub-inspired theme (`#0d1117` background). You can mod
 - `git_graph.html` - Activity graph widget  
 - `git_stats.html` - Statistics and streak widget
 
-##  Requirements
-
-- Windows 11 (Windows Widgets support)
-- Active GitHub account
-- Internet connection (widgets fetch data from GitHub APIs)
 
 ##  License
 
