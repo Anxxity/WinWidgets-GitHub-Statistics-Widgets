@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="applicationTitle" content="myWidget" />
+          <meta name="windowSize" content="440 200" />
+          <meta name="windowLocation" content="300 300" />
+          <meta name="windowBorderRadius" content="12" />
+          <meta name="topMost" content="true" />
+<style>
+html, body {
+  width: 440px;
+  height: 280px;
+  margin: 0;
+  background: #0d1117;
+  overflow: hidden;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+.widget {
+  width: 100%;
+  height: 100%;
+  background: #0d1117;
+  color: #c9d1d9;
+  border-radius: 12px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+h3 {
+  margin: 0 0 6px;
+  font-size: 13px;
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+</style>
+</head>
+
+<body>
+  <div class="widget">
+    <h3>GitHub Contributions</h3>
+    <img id="graph">
+  </div>
+
+<script>
+const USERNAME = "YOUR_USERNAME";
+
+function load() {
+  document.getElementById("graph").src =
+    `https://github-readme-activity-graph.vercel.app/graph?username=${USERNAME}&theme=github-dark&hide_border=true`;
+}
+
+load();
+</script>
+</body>
+</html>

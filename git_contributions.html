@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<meta name="applicationTitle" content="GitHub Contributions" />
+<meta name="windowSize" content="560 200" />
+<meta name="windowBorderRadius" content="12" />
+
+<style>
+/* Window */
+html, body {
+  margin: 0;
+  width: 560px;
+  height: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Helvetica, Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* GitHub-style card */
+.card {
+  margin: 10px;
+  padding: 12px 14px;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  height: calc(100% - 20px);
+  box-sizing: border-box;
+}
+
+/* Header text */
+.title {
+  font-size: 12px;
+  color: #0e74e9;
+  margin-bottom: 8px;
+}
+
+/* Heatmap */
+.heatmap {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Footer */
+.footer {
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: #8b949e;
+}
+
+.scale {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: #161b22;
+  border: 1px solid #30363d;
+}
+
+.l1 { background: #0e4429; border: none; }
+.l2 { background: #006d32; border: none; }
+.l3 { background: #26a641; border: none; }
+.l4 { background: #39d353; border: none; }
+</style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="title">Contributions</div>
+
+    <img
+      class="heatmap"
+      src="https://ghchart.rshah.org/USERNAME"
+      alt="GitHub Contributions"
+    />
+
+    <div class="footer">
+      <span>Less</span>
+      <div class="scale">
+        <div class="dot"></div>
+        <div class="dot l1"></div>
+        <div class="dot l2"></div>
+        <div class="dot l3"></div>
+        <div class="dot l4"></div>
+      </div>
+      <span>More</span>
+    </div>
+  </div>
+</body>
+</html>
