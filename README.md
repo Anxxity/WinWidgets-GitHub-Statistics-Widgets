@@ -39,18 +39,37 @@ Comprehensive statistics widget showing your GitHub profile stats and contributi
 - Contribution streak counter
 - Customizable themes
 
-##  Setup
+## Setup
 
 1. **Replace Username**: 
    - Open each HTML file
    - Replace `YOUR_USERNAME` with your actual GitHub username
    - In `git_contributions.html`, replace `USERNAME` in the image URL
 
-2. **Customize Themes** (Optional):
+2. **Set Up Your Own API Endpoints** (Recommended):
+   - The widgets use Vercel-hosted APIs for GitHub statistics
+   - To avoid rate limits and ensure reliability, deploy your own instances:
+
+   **GitHub Stats API:**
+   - Fork: https://github.com/anuraghazra/github-readme-stats
+   - Deploy to Vercel: https://vercel.com/new/clone?repository-url=https://github.com/anuraghazra/github-readme-stats
+   - Update `git_stats.html` line 61 with your Vercel URL
+
+   **GitHub Activity Graph:**
+   - Fork: https://github.com/ashutosh00710/github-readme-activity-graph
+   - Deploy to Vercel: https://vercel.com/new/clone?repository-url=https://github.com/ashutosh00710/github-readme-activity-graph
+   - Update `git_graph.html` line 53 with your Vercel URL
+
+   **GitHub Streak Stats:**
+   - Fork: https://github.com/DenverCoder1/github-readme-streak-stats
+   - Deploy to Vercel: https://vercel.com/new/clone?repository-url=https://github.com/DenverCoder1/github-readme-streak-stats
+   - Update `git_stats.html` line 65 with your Vercel URL
+
+3. **Customize Themes** (Optional):
    - In `git_stats.html`, modify the `THEME` variable to change the color scheme
    - Available themes: `dark`, `date_night`, `github_dark`, and more
 
-3. **Load in Windows Widgets**:
+4. **Load in Windows Widgets**:
    - Open Windows Widgets
    - Add a custom widget
    - Select the HTML file you want to display
